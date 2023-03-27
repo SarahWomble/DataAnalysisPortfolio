@@ -1,4 +1,4 @@
--- Rename Winner Pts Column
+-- Rename Winner Pts Column for readability
 
 ALTER TABLE superbowl 
 RENAME COLUMN `Winner Pts` TO Winner_Pts;
@@ -36,7 +36,6 @@ SELECT ROUND(AVG(Winner_pts), 0) AS average_winning_score
 FROM superbowl s ;
 
 -- On average the winning team scores 30 points (rounded from 30.1111)
-
 
 -- Let's play around with some other aggregate fuctions
 
